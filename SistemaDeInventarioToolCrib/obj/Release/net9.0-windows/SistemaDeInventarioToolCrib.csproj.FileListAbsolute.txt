@@ -1,0 +1,124 @@
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.exe
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.deps.json
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.runtimeconfig.json
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.pdb
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Azure.Core.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Azure.Identity.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.ClientModel.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.Memory.Data.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.AssemblyReference.cache
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.Properties.Resources.resources
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib.resources
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib_Registro.resources
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib_Salidas.resources
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.GenerateResource.cache
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.AssemblyInfoInputs.cache
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.AssemblyInfo.cs
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaD.8B45FFC4.Up2Date
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\refint\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.pdb
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.genruntimeconfig.cache
+C:\Users\PC\Pictures\Proyectos .NET\Forms\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\ref\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.exe
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.deps.json
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.runtimeconfig.json
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\SistemaDeInventarioToolCrib.pdb
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Azure.Core.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Azure.Identity.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.ClientModel.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\System.Memory.Data.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\bin\Release\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.AssemblyReference.cache
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.Properties.Resources.resources
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib.resources
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib_Registro.resources
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.ToolCrib_Salidas.resources
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.GenerateResource.cache
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.AssemblyInfoInputs.cache
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.AssemblyInfo.cs
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.csproj.CoreCompileInputs.cache
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaD.8B45FFC4.Up2Date
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\refint\SistemaDeInventarioToolCrib.dll
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.pdb
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\SistemaDeInventarioToolCrib.genruntimeconfig.cache
+C:\Users\PC\Music\SistemaDeInventarioToolCrib\SistemaDeInventarioToolCrib\obj\Release\net9.0-windows\ref\SistemaDeInventarioToolCrib.dll
