@@ -195,7 +195,9 @@ namespace SistemaDeInventarioToolCrib
 
             dtGdVwEntrance.DataSource = paginaTabla;
 
-            //dtGdVwEntrada.RowHeadersVisible = false;
+            dtGdVwEntrance.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dtGdVwEntrance.MultiSelect = false;
+            dtGdVwEntrance.RowHeadersVisible = true;
 
             dtGdVwEntrance.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
 
@@ -450,20 +452,20 @@ namespace SistemaDeInventarioToolCrib
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            if (paginaActual > 1)
+            {
+                ShowPage(paginaActual - 1);
+            }           
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
             int totalFilas = tablaCompleta.Rows.Count;
             int totalPages = (int)Math.Ceiling((double)totalFilas / filasPorPagina);
 
             if (paginaActual < totalPages)
             {
                 ShowPage(paginaActual + 1);
-            }
-        }
-
-        private void btnNext_Click(object sender, EventArgs e)
-        {
-            if (paginaActual > 1)
-            {
-                ShowPage(paginaActual - 1);
             }
         }
 
@@ -477,7 +479,9 @@ namespace SistemaDeInventarioToolCrib
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-
+            ToolCrib_Registro registro = new ToolCrib_Registro();
+            registro.Show();
+            this.Hide();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

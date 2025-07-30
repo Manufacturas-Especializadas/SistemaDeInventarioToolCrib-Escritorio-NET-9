@@ -125,7 +125,8 @@ namespace SistemaDeInventarioToolCrib
                                 ubicacion, material, unidadDeMedida,
                                 proveedor, numeroDeSerie, costoUnitario,
                                 ramos, santa, aluminio, cobre, modificado
-                            FROM TOOLCRIB";
+                            FROM TOOLCRIB
+                            ORDER BY Id DESC";
 
             tablaCompleta.Clear();
 
@@ -488,6 +489,13 @@ namespace SistemaDeInventarioToolCrib
         {
             ToolCrib Entradas = new ToolCrib();
             Entradas.Show();
+            this.Hide();
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            ToolCrib_Registro registro = new ToolCrib_Registro();
+            registro.Show();
             this.Hide();
         }
     }

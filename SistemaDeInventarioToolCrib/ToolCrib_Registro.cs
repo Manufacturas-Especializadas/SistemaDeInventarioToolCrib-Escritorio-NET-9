@@ -23,6 +23,27 @@ namespace SistemaDeInventarioToolCrib
         {
             try
             {
+                if(int.TryParse(txtBxExistencia.Text.Trim(), out int existenica))
+                {
+                    MessageBox.Show("El campo 'Existencia' debe ser un valor numérico.");
+                    txtBxExistencia.Focus();
+                    return;
+                }
+
+                if(int.TryParse(txtBxMinimo.Text.Trim(), out int minimo))
+                {
+                    MessageBox.Show("El campo 'Minimo' debe ser un valor numérico.");
+                    txtBxMinimo.Focus();
+                    return;
+                }
+
+                if (int.TryParse(txtBxMaximo.Text.Trim(), out int maximo))
+                {
+                    MessageBox.Show("El campo 'Maximo' debe ser un valor numérico");
+                    txtBxMaximo.Focus();
+                    return;
+                }
+
                 using (SqlConnection conn = await Connection.GetConnectionAsync())
                 {
                     if (conn == null || conn.State != ConnectionState.Open)
