@@ -78,6 +78,16 @@ namespace SistemaDeInventarioToolCrib
             }
         }
 
+        private void txtBoxSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                string searchText = txtBoxSearch.Text.Trim();
+                ShowPage(1, searchText);
+            }
+        }
+
         private async Task<bool> SearchMaterialByPartNumberAsync(string sku)
         {
             try
@@ -119,10 +129,10 @@ namespace SistemaDeInventarioToolCrib
         {
             string query = @"
                             SELECT
-                                Id, sku, existencia,
+                                Id, sku , material, existencia,
                                 minimo, maximo,
                                 linea, comentarios, categoria, fecha, hora,
-                                ubicacion, material, unidadDeMedida,
+                                ubicacion, unidadDeMedida,
                                 proveedor, numeroDeSerie, costoUnitario,
                                 ramos, santa, aluminio, cobre, modificado
                             FROM TOOLCRIB
@@ -153,17 +163,40 @@ namespace SistemaDeInventarioToolCrib
             ShowPage(paginaActual);
         }
 
-        private void ShowPage(int pagina)
+        private void ShowPage(int pagina, string filtroMaterial = "")
         {
             if (tablaCompleta.Rows.Count == 0)
             {
                 dtGdVwExit.DataSource = null;
                 lbPage.Text = "Página 0 de 0";
-
                 return;
             }
 
-            int totalFila = tablaCompleta.Rows.Count;
+            DataTable tablaFiltrada = tablaCompleta;
+            if (!string.IsNullOrEmpty(filtroMaterial))
+            {
+                tablaFiltrada = tablaCompleta.Clone();
+                foreach (DataRow row in tablaCompleta.Rows)
+                {
+                    if (row["material"].ToString()!.IndexOf(filtroMaterial, StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        tablaFiltrada.ImportRow(row);
+                    }
+                }
+
+                if (tablaFiltrada.Rows.Count == 0)
+                {
+                    dtGdVwExit.DataSource = null;
+                    lbPage.Text = "Página 0 de 0";
+                    MessageBox.Show($"No se encontraron materiales que coincidan con '{filtroMaterial}'",
+                         "Búsqueda sin resultados",
+                         MessageBoxButtons.OK,
+                         MessageBoxIcon.Information);
+                    return;
+                }
+            }
+
+            int totalFila = tablaFiltrada.Rows.Count;
             int totalPages = (int)Math.Ceiling((double)totalFila / filasPorPagina);
 
             if (pagina < 1) pagina = 1;
@@ -171,47 +204,21 @@ namespace SistemaDeInventarioToolCrib
 
             paginaActual = pagina;
 
-            int filaIncio = (pagina - 1) * filasPorPagina;
-
-            DataTable paginaTabla = tablaCompleta.Clone();
+            int filaInicio = (pagina - 1) * filasPorPagina;
+            DataTable paginaTabla = tablaFiltrada.Clone();
             int count = 0;
 
-
-            for (int i = filaIncio; i < tablaCompleta.Rows.Count && count < filasPorPagina; i++, count++)
+            for (int i = filaInicio; i < tablaFiltrada.Rows.Count && count < filasPorPagina; i++, count++)
             {
-                paginaTabla.ImportRow(tablaCompleta.Rows[i]);
+                paginaTabla.ImportRow(tablaFiltrada.Rows[i]);
             }
 
-
-            paginaTabla.Columns["sku"]!.ColumnName = "Sku";
-            paginaTabla.Columns["existencia"]!.ColumnName = "Existencia";
-            paginaTabla.Columns["minimo"]!.ColumnName = "Minimo";
-            paginaTabla.Columns["maximo"]!.ColumnName = "Maximo";
-            paginaTabla.Columns["linea"]!.ColumnName = "Linea";
-            paginaTabla.Columns["comentarios"]!.ColumnName = "Comentarios";
-            paginaTabla.Columns["categoria"]!.ColumnName = "Categoria";
-            paginaTabla.Columns["ubicacion"]!.ColumnName = "Ubicacion";
-            paginaTabla.Columns["fecha"]!.ColumnName = "Fecha";
-            paginaTabla.Columns["hora"]!.ColumnName = "Hora";
-            paginaTabla.Columns["material"]!.ColumnName = "Material";
-            paginaTabla.Columns["modificado"]!.ColumnName = "Modificado";
-            paginaTabla.Columns["unidadDeMedida"]!.ColumnName = "Unidad de medida";
-            paginaTabla.Columns["proveedor"]!.ColumnName = "Proveedor";
-            paginaTabla.Columns["numeroDeSerie"]!.ColumnName = "Numero de serie";
-            paginaTabla.Columns["costoUnitario"]!.ColumnName = "Costo unitario";
-            paginaTabla.Columns["ramos"]!.ColumnName = "Ramos";
-            paginaTabla.Columns["santa"]!.ColumnName = "Santa";
-            paginaTabla.Columns["aluminio"]!.ColumnName = "Aluminio";
-            paginaTabla.Columns["cobre"]!.ColumnName = "Cobre";
+            RenameColumns(paginaTabla);
 
             dtGdVwExit.DataSource = paginaTabla;
-
             dtGdVwExit.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-
             dtGdVwExit.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-
             dtGdVwExit.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.True;
-
             lbPage.Text = $"Página {paginaActual} de {totalPages}";
         }
 
@@ -230,9 +237,9 @@ namespace SistemaDeInventarioToolCrib
 
                     string query = @"
                                 SELECT 
-                                    Id, sku, existencia, minimo, maximo,
+                                    Id, sku, material,existencia, minimo, maximo,
                                     linea, comentarios, categoria, fecha, hora,
-                                    ubicacion, material, unidadDeMedida,
+                                    ubicacion, unidadDeMedida,
                                     proveedor, numeroDeSerie, costoUnitario,
                                     ramos, santa, aluminio, cobre, modificado
                                 FROM TOOLCRIB
@@ -270,26 +277,26 @@ namespace SistemaDeInventarioToolCrib
 
         private void RenameColumns(DataTable dt)
         {
-            dt.Columns["sku"]!.ColumnName = "Sku";
-            dt.Columns["existencia"]!.ColumnName = "Existencia";
-            dt.Columns["minimo"]!.ColumnName = "Minimo";
-            dt.Columns["maximo"]!.ColumnName = "Maximo";
-            dt.Columns["linea"]!.ColumnName = "Linea";
-            dt.Columns["comentarios"]!.ColumnName = "Comentarios";
-            dt.Columns["categoria"]!.ColumnName = "Categoria";
-            dt.Columns["ubicacion"]!.ColumnName = "Ubicacion";
-            dt.Columns["fecha"]!.ColumnName = "Fecha";
-            dt.Columns["hora"]!.ColumnName = "Hora";
-            dt.Columns["material"]!.ColumnName = "Material";
-            dt.Columns["modificado"]!.ColumnName = "Modificado";
-            dt.Columns["unidadDeMedida"]!.ColumnName = "Unidad de medida";
-            dt.Columns["proveedor"]!.ColumnName = "Proveedor";
-            dt.Columns["numeroDeSerie"]!.ColumnName = "Numero de serie";
-            dt.Columns["costoUnitario"]!.ColumnName = "Costo unitario";
-            dt.Columns["ramos"]!.ColumnName = "Ramos";
-            dt.Columns["santa"]!.ColumnName = "Santa";
-            dt.Columns["aluminio"]!.ColumnName = "Aluminio";
-            dt.Columns["cobre"]!.ColumnName = "Cobre";
+            if (dt.Columns.Contains("sku")) dt.Columns["sku"]!.ColumnName = "Sku";
+            if (dt.Columns.Contains("existencia")) dt.Columns["existencia"]!.ColumnName = "Existencia";
+            if (dt.Columns.Contains("minimo")) dt.Columns["minimo"]!.ColumnName = "Minimo";
+            if (dt.Columns.Contains("maximo")) dt.Columns["maximo"]!.ColumnName = "Maximo";
+            if (dt.Columns.Contains("linea")) dt.Columns["linea"]!.ColumnName = "Linea";
+            if (dt.Columns.Contains("comentarios")) dt.Columns["comentarios"]!.ColumnName = "Comentarios";
+            if (dt.Columns.Contains("categoria")) dt.Columns["categoria"]!.ColumnName = "Categoria";
+            if (dt.Columns.Contains("ubicacion")) dt.Columns["ubicacion"]!.ColumnName = "Ubicacion";
+            if (dt.Columns.Contains("fecha")) dt.Columns["fecha"]!.ColumnName = "Fecha";
+            if (dt.Columns.Contains("hora")) dt.Columns["hora"]!.ColumnName = "Hora";
+            if (dt.Columns.Contains("material")) dt.Columns["material"]!.ColumnName = "Material";
+            if (dt.Columns.Contains("modificado")) dt.Columns["modificado"]!.ColumnName = "Modificado";
+            if (dt.Columns.Contains("unidadDeMedida")) dt.Columns["unidadDeMedida"]!.ColumnName = "Unidad de medida";
+            if (dt.Columns.Contains("proveedor")) dt.Columns["proveedor"]!.ColumnName = "Proveedor";
+            if (dt.Columns.Contains("numeroDeSerie")) dt.Columns["numeroDeSerie"]!.ColumnName = "Numero de serie";
+            if (dt.Columns.Contains("costoUnitario")) dt.Columns["costoUnitario"]!.ColumnName = "Costo unitario";
+            if (dt.Columns.Contains("ramos")) dt.Columns["ramos"]!.ColumnName = "Ramos";
+            if (dt.Columns.Contains("santa")) dt.Columns["santa"]!.ColumnName = "Santa";
+            if (dt.Columns.Contains("aluminio")) dt.Columns["aluminio"]!.ColumnName = "Aluminio";
+            if (dt.Columns.Contains("cobre")) dt.Columns["cobre"]!.ColumnName = "Cobre";
         }
 
         private async void dtGdVwExit_CellEndEdit(object sender, DataGridViewCellEventArgs e)
@@ -481,6 +488,8 @@ namespace SistemaDeInventarioToolCrib
         {
             currentMaterialId = null;
             currentPartNumber = string.Empty;
+            txtBoxSearch.Clear();
+            txtBxExit.Clear();
 
             ShowPage(1);
         }
@@ -497,6 +506,6 @@ namespace SistemaDeInventarioToolCrib
             ToolCrib_Registro registro = new ToolCrib_Registro();
             registro.Show();
             this.Hide();
-        }
+        }       
     }
 }

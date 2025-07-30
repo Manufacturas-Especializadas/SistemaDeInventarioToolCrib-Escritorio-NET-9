@@ -42,10 +42,11 @@
             btnReset = new Button();
             tblPnlControl = new TableLayoutPanel();
             lbExit = new Label();
-            btnEntrance = new Button();
-            btnNew = new Button();
-            btnDelete = new Button();
             txtBxExit = new TextBox();
+            btnDelete = new Button();
+            btnNew = new Button();
+            btnEntrance = new Button();
+            txtBoxSearch = new TextBox();
             pnTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictBxLogo).BeginInit();
             tblPnlMain.SuspendLayout();
@@ -219,17 +220,19 @@
             // tblPnlControl
             // 
             tblPnlControl.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tblPnlControl.ColumnCount = 5;
+            tblPnlControl.ColumnCount = 6;
             tblPnlControl.ColumnStyles.Add(new ColumnStyle());
-            tblPnlControl.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tblPnlControl.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
+            tblPnlControl.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             tblPnlControl.ColumnStyles.Add(new ColumnStyle());
             tblPnlControl.ColumnStyles.Add(new ColumnStyle());
             tblPnlControl.ColumnStyles.Add(new ColumnStyle());
             tblPnlControl.Controls.Add(lbExit, 0, 0);
-            tblPnlControl.Controls.Add(btnEntrance, 2, 0);
-            tblPnlControl.Controls.Add(btnNew, 3, 0);
-            tblPnlControl.Controls.Add(btnDelete, 4, 0);
             tblPnlControl.Controls.Add(txtBxExit, 1, 0);
+            tblPnlControl.Controls.Add(btnDelete, 5, 0);
+            tblPnlControl.Controls.Add(btnNew, 4, 0);
+            tblPnlControl.Controls.Add(btnEntrance, 3, 0);
+            tblPnlControl.Controls.Add(txtBoxSearch, 2, 0);
             tblPnlControl.Location = new Point(4, 5);
             tblPnlControl.Margin = new Padding(4, 5, 4, 5);
             tblPnlControl.Name = "tblPnlControl";
@@ -250,37 +253,16 @@
             lbExit.TabIndex = 0;
             lbExit.Text = "SALIDA:";
             // 
-            // btnEntrance
+            // txtBxExit
             // 
-            btnEntrance.Anchor = AnchorStyles.Left;
-            btnEntrance.BackColor = Color.LightSteelBlue;
-            btnEntrance.Cursor = Cursors.Hand;
-            btnEntrance.FlatStyle = FlatStyle.Flat;
-            btnEntrance.Font = new Font("Arial", 12F);
-            btnEntrance.Location = new Point(832, 5);
-            btnEntrance.Margin = new Padding(4, 5, 4, 5);
-            btnEntrance.Name = "btnEntrance";
-            btnEntrance.Size = new Size(153, 47);
-            btnEntrance.TabIndex = 2;
-            btnEntrance.Text = "ENTRADAS";
-            btnEntrance.UseVisualStyleBackColor = false;
-            btnEntrance.Click += btnEntrance_Click;
-            // 
-            // btnNew
-            // 
-            btnNew.Anchor = AnchorStyles.Left;
-            btnNew.BackColor = Color.LightSteelBlue;
-            btnNew.Cursor = Cursors.Hand;
-            btnNew.FlatStyle = FlatStyle.Flat;
-            btnNew.Font = new Font("Arial", 12F);
-            btnNew.Location = new Point(993, 6);
-            btnNew.Margin = new Padding(4, 5, 4, 5);
-            btnNew.Name = "btnNew";
-            btnNew.Size = new Size(107, 45);
-            btnNew.TabIndex = 3;
-            btnNew.Text = "NUEVO";
-            btnNew.UseVisualStyleBackColor = false;
-            btnNew.Click += btnNew_Click;
+            txtBxExit.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtBxExit.Font = new Font("Arial", 12F);
+            txtBxExit.Location = new Point(113, 11);
+            txtBxExit.Margin = new Padding(4, 5, 4, 5);
+            txtBxExit.Name = "txtBxExit";
+            txtBxExit.Size = new Size(423, 35);
+            txtBxExit.TabIndex = 1;
+            txtBxExit.KeyPress += txtBxExit_KeyPress;
             // 
             // btnDelete
             // 
@@ -289,7 +271,7 @@
             btnDelete.Cursor = Cursors.Hand;
             btnDelete.FlatStyle = FlatStyle.Flat;
             btnDelete.Font = new Font("Arial", 12F);
-            btnDelete.Location = new Point(1108, 7);
+            btnDelete.Location = new Point(1107, 7);
             btnDelete.Margin = new Padding(4, 5, 4, 5);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(147, 42);
@@ -298,16 +280,47 @@
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
-            // txtBxExit
+            // btnNew
             // 
-            txtBxExit.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            txtBxExit.Font = new Font("Arial", 12F);
-            txtBxExit.Location = new Point(113, 11);
-            txtBxExit.Margin = new Padding(4, 5, 4, 5);
-            txtBxExit.Name = "txtBxExit";
-            txtBxExit.Size = new Size(711, 35);
-            txtBxExit.TabIndex = 1;
-            txtBxExit.KeyPress += txtBxExit_KeyPress;
+            btnNew.Anchor = AnchorStyles.Left;
+            btnNew.BackColor = Color.LightSteelBlue;
+            btnNew.Cursor = Cursors.Hand;
+            btnNew.FlatStyle = FlatStyle.Flat;
+            btnNew.Font = new Font("Arial", 12F);
+            btnNew.Location = new Point(992, 6);
+            btnNew.Margin = new Padding(4, 5, 4, 5);
+            btnNew.Name = "btnNew";
+            btnNew.Size = new Size(107, 45);
+            btnNew.TabIndex = 3;
+            btnNew.Text = "NUEVO";
+            btnNew.UseVisualStyleBackColor = false;
+            btnNew.Click += btnNew_Click;
+            // 
+            // btnEntrance
+            // 
+            btnEntrance.Anchor = AnchorStyles.Left;
+            btnEntrance.BackColor = Color.LightSteelBlue;
+            btnEntrance.Cursor = Cursors.Hand;
+            btnEntrance.FlatStyle = FlatStyle.Flat;
+            btnEntrance.Font = new Font("Arial", 12F);
+            btnEntrance.Location = new Point(831, 5);
+            btnEntrance.Margin = new Padding(4, 5, 4, 5);
+            btnEntrance.Name = "btnEntrance";
+            btnEntrance.Size = new Size(153, 47);
+            btnEntrance.TabIndex = 2;
+            btnEntrance.Text = "ENTRADAS";
+            btnEntrance.UseVisualStyleBackColor = false;
+            btnEntrance.Click += btnEntrance_Click;
+            // 
+            // txtBoxSearch
+            // 
+            txtBoxSearch.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtBoxSearch.Font = new Font("Arial", 12F);
+            txtBoxSearch.Location = new Point(543, 11);
+            txtBoxSearch.Name = "txtBoxSearch";
+            txtBoxSearch.Size = new Size(281, 35);
+            txtBoxSearch.TabIndex = 5;
+            txtBoxSearch.KeyPress += txtBoxSearch_KeyPress;
             // 
             // ToolCrib_Salidas
             // 
@@ -353,5 +366,6 @@
         private Button btnNew;
         private Button btnDelete;
         private TextBox txtBxExit;
+        private TextBox txtBoxSearch;
     }
 }
